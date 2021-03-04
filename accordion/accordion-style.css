@@ -1,0 +1,55 @@
+
+/*Keyboard Accessible Accordion --------------------------------------- */
+.construct-michigan-accessible-accordion .construct-michigan-element-toggler a{
+    font-size: 13pt;
+    letter-spacing: -0.0125rem;
+    line-height: 1.65;
+    border-bottom: 0.0625rem solid #EEEEEE;
+    padding: 1.3rem;
+    margin: 0;
+    display: block;
+    color: var(--ic-brand-primary);
+    /* color:#003E78; */
+    background-color: #F8F8F8;
+    position: relative;
+    margin: 0.5rem 0;
+    position: relative;
+    border-radius: 1rem;
+    text-decoration: none!important;
+  }  
+  
+  .construct-michigan-accessible-accordion .construct-michigan-element-toggler a:after {
+    content: '';
+    background-image: url('data:image/svg+xml;utf8,<svg width="19" height="18" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill-rule="nonzero" stroke="%239D9D9D" stroke-width="1.5" fill="none" stroke-linecap="square"><path d="M673,8 L673,24" transform="translate(-663.000000, -32.000000) translate(0.000000, 25.000000)"/><path d="M672.5,8.5 L672.5,24.5" transform="translate(-663.000000, -32.000000) translate(0.000000, 25.000000) translate(672.500000, 16.500000) rotate(-270.000000) translate(-672.500000, -16.500000)"/></g></svg>');
+    background-size: 1rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    right: 1rem;
+    top: 1.333rem;
+  }
+  
+  .construct-michigan-accessible-accordion .construct-michigan-element-toggler a[aria-expanded=false]:after {
+    background-image: url('data:image/svg+xml;utf8,<svg width="19" height="18" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill-rule="nonzero" stroke="%239D9D9D" stroke-width="1.5" fill="none" stroke-linecap="square"><path d="M673,8 L673,24" transform="translate(-663.000000, -32.000000) translate(0.000000, 25.000000)"/><path d="M672.5,8.5 L672.5,24.5" transform="translate(-663.000000, -32.000000) translate(0.000000, 25.000000) translate(672.500000, 16.500000) rotate(-270.000000) translate(-672.500000, -16.500000)"/></g></svg>');
+  }  
+  
+  .construct-michigan-accessible-accordion .construct-michigan-element-toggler a[aria-expanded=true]:after {
+    background-image: url('data:image/svg+xml;utf8,<svg width="19" height="18" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill-rule="nonzero" stroke="%239D9D9D" stroke-width="1.5" fill="none" stroke-linecap="square"><path d="M672.5,8.5 L672.5,24.5" transform="translate(-663.000000, -32.000000) translate(0.000000, 25.000000) translate(672.500000, 16.500000) rotate(-270.000000) translate(-672.500000, -16.500000)"/></g></svg>');
+  }  
+  
+  .construct-michigan-accessible-accordion-content  {
+    display: none;
+    padding: 0 1rem 1rem;
+  }  
+
+  
+  .construct-michigan-accessible-accordion-content.active
+  {
+    display: block;
+  }
+
+
+
+/* ------------------------ */

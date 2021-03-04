@@ -1,0 +1,37 @@
+<div class="construct-accessible-tabs">
+    <ul class="construct-accessible-tablist lettertabslist" role="tablist">
+        <li id="tab1" class="construct-accessible-tab construct-accessible-lettertab"
+            style="color: #333333; vertical-align: top; display: inline-block; text-align: center; cursor: pointer;"
+            role="tab" aria-controls="panel1" aria-selected="true">
+          tab 1
+        </li>
+        <li id="tab2" class="construct-accessible-tab construct-accessible-lettertab"
+            style="color: #333333; vertical-align: top; display: inline-block; text-align: center; cursor: pointer;"
+            role="tab" aria-controls="panel2" aria-selected="false">
+            tab 2
+        </li>
+        <li id="tab3" class="construct-accessible-tab construct-accessible-lettertab"
+            style="color: #333333; vertical-align: top; display: inline-block; text-align: center; cursor: pointer;"
+            role="tab" aria-controls="panel3" aria-selected="false">
+            tab 3
+        </li>
+    </ul>
+    <div id="panel1" class="construct-accessible-panel" role="tabpanel" aria-labelledby="tab1" aria-hidden="false">
+        <p>
+          content 1
+        </p>
+    </div>
+    <div id="panel2" class="construct-accessible-panel hidden" role="tabpanel" aria-labelledby="tab2"
+        aria-hidden="true">
+        <p>
+            content 2
+        </p>
+      
+    </div>
+    <div id="panel3" class="construct-accessible-panel hidden" role="tabpanel" aria-labelledby="tab3"
+        aria-hidden="true">
+        <p>
+            content 3
+         </p>
+    </div>
+</div>

@@ -1154,5 +1154,16 @@ p.spacer {
     color: black!important;
 }
 
+
+/* --------------------- slighlty bolder text. Canvas is now stripping this from inline CSS ---------------------*/
+
+.construct-font-weight-600 {
+    font-weight: 600;
+}
+
+.construct-font-weight-400 {
+    font-weight: 400;
+}
+
   
 /*JONATHAN's CODE ENDS HERE*/

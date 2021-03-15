@@ -1187,7 +1187,9 @@ p.spacer {
 /* preload images that are shown on hover - doesnt yet work on Safari */
 body::after{
     position:absolute; width:0; height:0; overflow:hidden; z-index:-1; 
-	content: url('https://umich.instructure.com/files/19631350/download?download_frd=1') url('https://umich.instructure.com/files/19631543/download?download_frd=1') url('https://umich.instructure.com/files/19631556/download?download_frd=1') url('https://umich.instructure.com/files/19631573/download?download_frd=1');
+	content: url('https://umich.instructure.com/files/19631350/download?download_frd=1') url('https://umich.instructure.com/files/19631543/download?download_frd=1') url('https://umich.instructure.com/files/19631556/download?download_frd=1') url('https://umich.instructure.com/files/19631573/download?download_frd=1')  url('https://umich.instructure.com/files/19656088/download?download_frd=1') url('https://umich.instructure.com/files/19656109/download?download_frd=1') url('https://umich.instructure.com/files/19656118/download?download_frd=1') url('https://umich.instructure.com/files/19656164/download?download_frd=1')
+    url('https://umich.instructure.com/files/19656155/download?download_frd=1') url('https://umich.instructure.com/files/19656350/download?download_frd=1') url('https://umich.instructure.com/files/19677883/download?download_frd=1') url('https://umich.instructure.com/files/19677911/download?download_frd=1')
+    url('https://umich.instructure.com/files/19677917/download?download_frd=1') url('https://umich.instructure.com/files/19677936/download?download_frd=1') url('https://umich.instructure.com/files/19677934/download?download_frd=1') url('https://umich.instructure.com/files/19677938/download?download_frd=1');
  }
 
 /* make subheader readable against semi-transparent image background */
@@ -1332,12 +1334,79 @@ body::after{
 	background-color: #72B4D3;
 	background-size: cover;
 	transition: all .2s ease-in;
-	background-image: url('https://umich.instructure.com/files/19656117/download?download_frd=1');
+	background-image: url('https://umich.instructure.com/files/19656349/download?download_frd=1');
 }
 .construct-tile-background-image-10:hover {
 	transition: 0.3s;
-	background-image: url('https://umich.instructure.com/files/19656118/download?download_frd=1');
+	background-image: url('https://umich.instructure.com/files/19656350/download?download_frd=1');
 }
+/*F3 Share Your Experience */
+.construct-tile-background-image-11 {
+	background-color: #72B4D3;
+	background-size: cover;
+	transition: all .2s ease-in;
+	background-image: url('https://umich.instructure.com/files/19677882/download?download_frd=1');
+}
+.construct-tile-background-image-11:hover {
+	transition: 0.3s;
+	background-image: url('https://umich.instructure.com/files/19677883/download?download_frd=1');
+}
+/*E1 Introduction to Solution Generation */
+.construct-tile-background-image-12 {
+	background-color: #72B4D3;
+	background-size: cover;
+	transition: all .2s ease-in;
+	background-image: url('https://umich.instructure.com/files/19677910/download?download_frd=1');
+}
+.construct-tile-background-image-12:hover {
+	transition: 0.3s;
+	background-image: url('https://umich.instructure.com/files/19677911/download?download_frd=1');
+}
+/*E2 Activity: Solution Generation */
+.construct-tile-background-image-13 {
+	background-color: #72B4D3;
+	background-size: cover;
+	transition: all .2s ease-in;
+	background-image: url('https://umich.instructure.com/files/19677922/download?download_frd=1');
+}
+.construct-tile-background-image-13:hover {
+	transition: 0.3s;
+	background-image: url('https://umich.instructure.com/files/19677917/download?download_frd=1');
+}
+/*B1 Introduction to Five Ideas */
+.construct-tile-background-image-14 {
+	background-color: #72B4D3;
+	background-size: cover;
+	transition: all .2s ease-in;
+	background-image: url('https://umich.instructure.com/files/19677935/download?download_frd=1');
+}
+.construct-tile-background-image-14:hover {
+	transition: 0.3s;
+	background-image: url('https://umich.instructure.com/files/19677936/download?download_frd=1');
+}
+/*B3 Five Ideas Idea Board */
+.construct-tile-background-image-15 {
+	background-color: #72B4D3;
+	background-size: cover;
+	transition: all .2s ease-in;
+	background-image: url('https://umich.instructure.com/files/19677933/download?download_frd=1');
+}
+.construct-tile-background-image-15:hover {
+	transition: 0.3s;
+	background-image: url('https://umich.instructure.com/files/19677934/download?download_frd=1');
+}
+/*F2 Conclusion */
+.construct-tile-background-image-16 {
+	background-color: #72B4D3;
+	background-size: cover;
+	transition: all .2s ease-in;
+	background-image: url('https://umich.instructure.com/files/19677937/download?download_frd=1');
+}
+.construct-tile-background-image-16:hover {
+	transition: 0.3s;
+	background-image: url('https://umich.instructure.com/files/19677938/download?download_frd=1');
+}
+
 
 
   

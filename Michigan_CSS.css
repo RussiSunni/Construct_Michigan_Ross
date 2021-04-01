@@ -1205,15 +1205,13 @@ p.spacer {
     position: inherit;
 }
 
-.construct-theme-green {
-    background-color: #7dcec9;
+.construct-theme-light-teal {
+    background-color: #b9d3d2;
 }
 
-.construct-theme-red {
-    background-color: #EA6A20;
+.construct-theme-dark-teal {
+    background-color: #8dbebc;
 }
-
-
 
 
 .construct-module-overview-grid-item:hover img {
@@ -1443,18 +1441,45 @@ body::after{
 	background-image: url('https://umich.instructure.com/files/19677938/download?download_frd=1');
 }
 
+/* preload images that are shown on hover - doesnt yet work on Safari */
+body::after{
+    position:absolute; width:0; height:0; overflow:hidden; z-index:-1; 
+	content: url('https://umich.instructure.com/files/19958255/download?download_frd=1') url('https://umich.instructure.com/files/19958272/download?download_frd=1') url('https://umich.instructure.com/files/19959875/download?download_frd=1') url('https://umich.instructure.com/files/19960396/download?download_frd=1');
+ }
 
-.construct-tile-background-BA535-M1B1 {
-	background-color: #72B4D3;
-	background-size: cover;
-	transition: all .2s ease-in;
-	background-image: url('https://umich.instructure.com/files/19958256/download?download_frd=1');
-}
 .construct-tile-background-BA535-M1B1:hover {
-	transition: 0.3s;
+    background-color: #7dcec9;
+	background-size: cover;
+    transition: all .2s ease-in;
 	background-image: url('https://umich.instructure.com/files/19958255/download?download_frd=1');
 }
 
+.construct-tile-background-BA535-M1C1:hover {
+    background-color: #7dcec9;
+	background-size: cover;
+    transition: all .2s ease-in;
+	background-image: url('https://umich.instructure.com/files/19958272/download?download_frd=1');
+}
+
+.construct-tile-background-BA535-M1D1:hover {
+    background-color: #7dcec9;
+	background-size: cover;
+    transition: all .2s ease-in;
+	background-image: url('https://umich.instructure.com/files/19959875/download?download_frd=1');
+}
+
+.construct-tile-background-BA535-M1E1:hover {
+    background-color: #7dcec9;
+	background-size: cover;
+    transition: all .2s ease-in;
+	background-image: url('https://umich.instructure.com/files/19960396/download?download_frd=1');
+}
+
+
+
+.cdk-grid-block:hover .construct-no-text-on-hover {
+    opacity: 0;
+}
 
 
   

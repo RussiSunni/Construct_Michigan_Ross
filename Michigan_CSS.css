@@ -1155,6 +1155,13 @@ p.spacer {
 }
 
 
+/* ----------------------------------------- tables with same font size as ps and lis -------------------------------------------------------- */
+
+.construct-table-font-size {
+    font-size: 1.0625rem;
+}
+
+
 /* --------------------- slighlty bolder text. Canvas is now stripping this from inline CSS ---------------------*/
 
 .construct-font-weight-600 {

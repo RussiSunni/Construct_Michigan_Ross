@@ -944,6 +944,11 @@ p.spacer {
     padding-left: 50px;;
 }
 
+.construct-right-column-padding
+{
+    padding-left: 20px;;
+}
+
 
 
 /*Keyboard Accessible Accordion --------------------------------------- */
@@ -1012,6 +1017,12 @@ p.spacer {
 
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 1100px) {
+    .construct-flex-responsive-1100 {
+      flex-direction: column;
+    }   
+  }
+
 @media (max-width: 800px) {
     .construct-flex-row-align-top, .construct-flex-row-align-baseline {
         flex-direction: column;
@@ -1199,8 +1210,8 @@ p.spacer {
 
 .construct-module-overview-grid-icon-top-right {
 	position: absolute;
-	top: 5px;
-	right: 5px;
+	top: 6.5%;
+	right: 6.5%;
 }
 
 .construct-module-overview-grid-container {
@@ -1238,7 +1249,7 @@ body::after{
     font-weight: 500;
 }
 
-/* background images for module overview pages*/
+/* OLD DESIGN - DELETE   background images for module overview pages*/
 /* lightbulb */
 .construct-tile-background-image-01 {
 	background-color: #72B4D3;
@@ -1448,11 +1459,22 @@ body::after{
 	background-image: url('https://umich.instructure.com/files/19677938/download?download_frd=1');
 }
 
+
+
+/* new design -----------------------------------------------------------*/
 /* preload images that are shown on hover - doesnt yet work on Safari */
 body::after{
     position:absolute; width:0; height:0; overflow:hidden; z-index:-1; 
-	content: url('https://umich.instructure.com/files/19958255/download?download_frd=1') url('https://umich.instructure.com/files/19958272/download?download_frd=1') url('https://umich.instructure.com/files/19959875/download?download_frd=1') url('https://umich.instructure.com/files/19960396/download?download_frd=1');
+	content: url('https://umich.instructure.com/files/20188891/download?download_frd=1') url('https://umich.instructure.com/files/19958255/download?download_frd=1') url('https://umich.instructure.com/files/19958272/download?download_frd=1') url('https://umich.instructure.com/files/19959875/download?download_frd=1') url('https://umich.instructure.com/files/19960396/download?download_frd=1') url('https://umich.instructure.com/files/20188963/download?download_frd=1') url('https://umich.instructure.com/files/20189246/download?download_frd=1') url('https://umich.instructure.com/files/20189484/download?download_frd=1') url('https://umich.instructure.com/files/20253997/download?download_frd=1') url('https://umich.instructure.com/files/20254095/download?download_frd=1') url('https://umich.instructure.com/files/20254147/download?download_frd=1') url('https://umich.instructure.com/files/20254177/download?download_frd=1') url('https://umich.instructure.com/files/20254213/download?download_frd=1');
  }
+
+ .construct-tile-background-BA535-M0B1:hover {
+    background-color: #7dcec9;
+	background-size: cover;
+    transition: all .2s ease-in;
+	background-image: url('https://umich.instructure.com/files/20188891/download?download_frd=1');
+}
+
 
 .construct-tile-background-BA535-M1B1:hover {
     background-color: #7dcec9;
@@ -1482,7 +1504,61 @@ body::after{
 	background-image: url('https://umich.instructure.com/files/19960396/download?download_frd=1');
 }
 
+.construct-tile-background-BA535-C1B1:hover {
+    background-color: #7dcec9;
+	background-size: cover;
+    transition: all .2s ease-in;
+	background-image: url('https://umich.instructure.com/files/20188963/download?download_frd=1');
+}
 
+.construct-tile-background-BA535-M2B2:hover {
+    background-color: #7dcec9;
+	background-size: cover;
+    transition: all .2s ease-in;
+	background-image: url('https://umich.instructure.com/files/20189246/download?download_frd=1');
+}
+
+.construct-tile-background-BA535-M2D1:hover {
+    background-color: #7dcec9;
+	background-size: cover;
+    transition: all .2s ease-in;
+	background-image: url('https://umich.instructure.com/files/20189484/download?download_frd=1');
+}
+
+.construct-tile-background-BA535-M2D2:hover {
+    background-color: #7dcec9;
+	background-size: cover;
+    transition: all .2s ease-in;
+	background-image: url('https://umich.instructure.com/files/20253997/download?download_frd=1');
+}
+
+.construct-tile-background-BA535-M3B1:hover {
+    background-color: #7dcec9;
+	background-size: cover;
+    transition: all .2s ease-in;
+	background-image: url('https://umich.instructure.com/files/20254095/download?download_frd=1');
+}
+
+.construct-tile-background-BA535-M4A2:hover {
+    background-color: #7dcec9;
+	background-size: cover;
+    transition: all .2s ease-in;
+	background-image: url('https://umich.instructure.com/files/20254147/download?download_frd=1');
+}
+
+.construct-tile-background-BA535-M4C1:hover {
+    background-color: #7dcec9;
+	background-size: cover;
+    transition: all .2s ease-in;
+	background-image: url('https://umich.instructure.com/files/20254177/download?download_frd=1');
+}
+
+.construct-tile-background-BA535-M4D2:hover {
+    background-color: #7dcec9;
+	background-size: cover;
+    transition: all .2s ease-in;
+	background-image: url('https://umich.instructure.com/files/20254213/download?download_frd=1');
+}
 
 .cdk-grid-block:hover .construct-no-text-on-hover {
     opacity: 0;

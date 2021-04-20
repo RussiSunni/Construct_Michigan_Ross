@@ -950,33 +950,6 @@ p.spacer {
 }
 
 
-/* --------2 column layout break points------ */
-
-
-/* Responsive layout - makes a one column layout instead of a two-column layout */
-@media (max-width: 1100px) {
-    .construct-flex-responsive-1100 {
-      flex-direction: column;
-    }   
-  }
-
-@media (max-width: 800px) {
-    .construct-flex-row-align-top, .construct-flex-row-align-baseline {
-        flex-direction: column;
-      }
-
-    .construct-left-column-padding {
-        padding-left: unset;
-    }
-  }
-
-@media (max-width: 600px) {
-    .construct-flex-row {
-      flex-direction: column;
-    }   
-  }
-
-
 
 /*Keyboard Accessible Accordion --------------------------------------- */
 .construct-michigan-accessible-accordion .construct-michigan-element-toggler a{
@@ -1036,6 +1009,37 @@ p.spacer {
   {
     display: block;
   }
+
+
+
+/* ------------------------ */
+
+
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 1100px) {
+    .construct-flex-responsive-1100 {
+      flex-direction: column;
+    }   
+  }
+
+@media (max-width: 800px) {
+    .construct-flex-row-align-top, .construct-flex-row-align-baseline {
+        flex-direction: column;
+      }
+
+    .construct-left-column-padding {
+        padding-left: unset;
+    }
+  }
+
+@media (max-width: 600px) {
+    .construct-flex-row {
+      flex-direction: column;
+    }   
+  }
+
+
 
   
 /* ----------------------------------------- accessible tabs -------------------------------------------------------- */
@@ -1182,7 +1186,7 @@ p.spacer {
 
 
 
-/* --------------------- ES515/BA535 module overview page template mockup ------------class names will be improved---------*/
+/* --------------------- ES515/BA535 module overview page template mockup --------------------*/
 
 .construct-module-overview-grid-item
 {
@@ -1245,224 +1249,16 @@ body::after{
     font-weight: 500;
 }
 
-/* OLD DESIGN - DELETE   background images for module overview pages*/
-/* lightbulb */
-.construct-tile-background-image-01 {
-	background-color: #72B4D3;
-	background-size: cover;
-	transition: all .2s ease-in;
-	background-image: url('https://umich.instructure.com/files/19631388/download?download_frd=1');
-}
-.construct-tile-background-image-01:hover {
-	background-size: cover;
-	transition: 0.3s;
-	background-image: url('https://umich.instructure.com/files/19631350/download?download_frd=1');
-}
-/* .construct-tile-background-image-01-no-hover {
-	background-color: #72B4D3;
-	background-size: cover;
-	transition: all .2s ease-in;
-	background-image: url('https://umich.instructure.com/files/19631388/download?download_frd=1');
-} */
-
-/* lean startup */
-.construct-tile-background-image-02 {
-	background-color: #72B4D3;
-	background-size: cover;
-	transition: all .2s ease-in;
-	background-image: url('https://umich.instructure.com/files/19631548/download?download_frd=1');
-}
-.construct-tile-background-image-02:hover {
-	background-size: cover;
-	transition: 0.3s;
-	background-image: url('https://umich.instructure.com/files/19631543/download?download_frd=1');
-}
-/* .construct-tile-background-image-02-no-hover {
-	background-color: #72B4D3;
-	background-size: cover;
-	transition: all .2s ease-in;
-	background-image: url('https://umich.instructure.com/files/19631548/download?download_frd=1');
-} */
-
-/* jobs to be done */
-.construct-tile-background-image-03 {
-	background-color: #72B4D3;
-	background-size: cover;
-	transition: all .2s ease-in;
-	background-image: url('https://umich.instructure.com/files/19631561/download?download_frd=1');
-}
-.construct-tile-background-image-03:hover {
-	background-size: cover;
-	transition: 0.3s;
-	background-image: url('https://umich.instructure.com/files/19631556/download?download_frd=1');
-}
-/* .construct-tile-background-image-03-no-hover {
-	background-color: #72B4D3;
-	background-size: cover;
-	transition: all .2s ease-in;
-	background-image: url('https://umich.instructure.com/files/19631561/download?download_frd=1');
-} */
-
-/* jobs to be done */
-.construct-tile-background-image-04 {
-	background-color: #72B4D3;
-	background-size: cover;
-	transition: all .2s ease-in;
-	background-image: url('https://umich.instructure.com/files/19631585/download?download_frd=1');
-}
-.construct-tile-background-image-04:hover {
-	background-size: cover;
-	transition: 0.3s;
-	background-image: url('https://umich.instructure.com/files/19631573/download?download_frd=1');
-}
-/* .construct-tile-background-image-04-no-hover {
-	background-color: #72B4D3;
-	background-size: cover;
-	transition: all .2s ease-in;
-	background-image: url('https://umich.instructure.com/files/19631585/download?download_frd=1');
-} */
-
-/*B2 How to use LucidSpark */
-.construct-tile-background-image-05 {
-	background-color: #72B4D3;
-	background-size: cover;
-	transition: all .2s ease-in;
-	background-image: url('https://umich.instructure.com/files/19656089/download?download_frd=1');
-}
-.construct-tile-background-image-05:hover {
-	transition: 0.3s;
-	background-image: url('https://umich.instructure.com/files/19656088/download?download_frd=1');
-}
-/*C1 Introduction to Empathy Mapping */
-.construct-tile-background-image-06 {
-	background-color: #72B4D3;
-	background-size: cover;
-	transition: all .2s ease-in;
-	background-image: url('https://umich.instructure.com/files/19656108/download?download_frd=1');
-}
-.construct-tile-background-image-06:hover {
-	transition: 0.3s;
-	background-image: url('https://umich.instructure.com/files/19656109/download?download_frd=1');
-}
-/*C2 Activity: Empathy Mapping */
-.construct-tile-background-image-07 {
-	background-color: #72B4D3;
-	background-size: cover;
-	transition: all .2s ease-in;
-	background-image: url('https://umich.instructure.com/files/19656117/download?download_frd=1');
-}
-.construct-tile-background-image-07:hover {
-	transition: 0.3s;
-	background-image: url('https://umich.instructure.com/files/19656118/download?download_frd=1');
-}
-/*D1 Introduction to How Might We */
-.construct-tile-background-image-08 {
-	background-color: #72B4D3;
-	background-size: cover;
-	transition: all .2s ease-in;
-	background-image: url('https://umich.instructure.com/files/19656163/download?download_frd=1');
-}
-.construct-tile-background-image-08:hover {
-	transition: 0.3s;
-	background-image: url('https://umich.instructure.com/files/19656164/download?download_frd=1');
-}
-/*D2 Activity: How Might We */
-.construct-tile-background-image-09 {
-	background-color: #72B4D3;
-	background-size: cover;
-	transition: all .2s ease-in;
-	background-image: url('https://umich.instructure.com/files/19656154/download?download_frd=1');
-}
-.construct-tile-background-image-09:hover {
-	transition: 0.3s;
-	background-image: url('https://umich.instructure.com/files/19656155/download?download_frd=1');
-}
-/*F1 Tell Your Story */
-.construct-tile-background-image-10 {
-	background-color: #72B4D3;
-	background-size: cover;
-	transition: all .2s ease-in;
-	background-image: url('https://umich.instructure.com/files/19656349/download?download_frd=1');
-}
-.construct-tile-background-image-10:hover {
-	transition: 0.3s;
-	background-image: url('https://umich.instructure.com/files/19656350/download?download_frd=1');
-}
-/*F3 Share Your Experience */
-.construct-tile-background-image-11 {
-	background-color: #72B4D3;
-	background-size: cover;
-	transition: all .2s ease-in;
-	background-image: url('https://umich.instructure.com/files/19677882/download?download_frd=1');
-}
-.construct-tile-background-image-11:hover {
-	transition: 0.3s;
-	background-image: url('https://umich.instructure.com/files/19677883/download?download_frd=1');
-}
-/*E1 Introduction to Solution Generation */
-.construct-tile-background-image-12 {
-	background-color: #72B4D3;
-	background-size: cover;
-	transition: all .2s ease-in;
-	background-image: url('https://umich.instructure.com/files/19677910/download?download_frd=1');
-}
-.construct-tile-background-image-12:hover {
-	transition: 0.3s;
-	background-image: url('https://umich.instructure.com/files/19677911/download?download_frd=1');
-}
-/*E2 Activity: Solution Generation */
-.construct-tile-background-image-13 {
-	background-color: #72B4D3;
-	background-size: cover;
-	transition: all .2s ease-in;
-	background-image: url('https://umich.instructure.com/files/19677922/download?download_frd=1');
-}
-.construct-tile-background-image-13:hover {
-	transition: 0.3s;
-	background-image: url('https://umich.instructure.com/files/19677917/download?download_frd=1');
-}
-/*B1 Introduction to Five Ideas */
-.construct-tile-background-image-14 {
-	background-color: #72B4D3;
-	background-size: cover;
-	transition: all .2s ease-in;
-	background-image: url('https://umich.instructure.com/files/19677935/download?download_frd=1');
-}
-.construct-tile-background-image-14:hover {
-	transition: 0.3s;
-	background-image: url('https://umich.instructure.com/files/19677936/download?download_frd=1');
-}
-/*B3 Five Ideas Idea Board */
-.construct-tile-background-image-15 {
-	background-color: #72B4D3;
-	background-size: cover;
-	transition: all .2s ease-in;
-	background-image: url('https://umich.instructure.com/files/19677933/download?download_frd=1');
-}
-.construct-tile-background-image-15:hover {
-	transition: 0.3s;
-	background-image: url('https://umich.instructure.com/files/19677934/download?download_frd=1');
-}
-/*F2 Conclusion */
-.construct-tile-background-image-16 {
-	background-color: #72B4D3;
-	background-size: cover;
-	transition: all .2s ease-in;
-	background-image: url('https://umich.instructure.com/files/19677937/download?download_frd=1');
-}
-.construct-tile-background-image-16:hover {
-	transition: 0.3s;
-	background-image: url('https://umich.instructure.com/files/19677938/download?download_frd=1');
-}
 
 
+/* Module Overview Grid -----------------------------------------------------------*/
 
-/* new design -----------------------------------------------------------*/
 /* preload images that are shown on hover - doesnt yet work on Safari */
 body::after{
     position:absolute; width:0; height:0; overflow:hidden; z-index:-1; 
 	content: url('https://umich.instructure.com/files/20188891/download?download_frd=1') url('https://umich.instructure.com/files/19958255/download?download_frd=1') url('https://umich.instructure.com/files/19958272/download?download_frd=1') url('https://umich.instructure.com/files/19959875/download?download_frd=1') url('https://umich.instructure.com/files/19960396/download?download_frd=1') url('https://umich.instructure.com/files/20188963/download?download_frd=1') url('https://umich.instructure.com/files/20189246/download?download_frd=1') url('https://umich.instructure.com/files/20189484/download?download_frd=1') url('https://umich.instructure.com/files/20253997/download?download_frd=1') url('https://umich.instructure.com/files/20254095/download?download_frd=1') url('https://umich.instructure.com/files/20254147/download?download_frd=1') url('https://umich.instructure.com/files/20254177/download?download_frd=1') url('https://umich.instructure.com/files/20254213/download?download_frd=1');
  }
+
 
  .construct-tile-background-BA535-M0B1:hover {
     background-color: #7dcec9;

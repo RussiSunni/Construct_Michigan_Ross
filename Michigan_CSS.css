@@ -1356,6 +1356,10 @@ body::after{
     opacity: 0;
 }
 
+.construct-iframe-border {
+    border: 2px solid  var(--ic-brand-primary)!important;
+    border-radius: 0.375rem;
+}
 
   
 /*JONATHAN's CODE ENDS HERE*/

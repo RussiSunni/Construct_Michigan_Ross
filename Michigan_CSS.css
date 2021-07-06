@@ -1113,6 +1113,7 @@ p.spacer {
     opacity: 0.6;
   }  
   
+  /* seems to not be responsive for some reason now */
   .construct-accessible-lettertab {
       padding: 10px 15px;
       border-top: 1px solid #c7cdd1;
@@ -1120,10 +1121,25 @@ p.spacer {
       border-left: 1px solid #c7cdd1;
       margin: 0 0.2em 0px 0!important;
   }
-  
+
   .construct-accessible-lettertab:hover {
     color: #000!important;
   }  
+
+  /* responsive, UMich gold*/
+  .construct-accessible-gold-tab {
+    padding: 12px 15px;
+    border-top: 2px solid #FFCC02;
+    border-right: 2px solid #FFCC02;
+    border-left: 2px solid #FFCC02;
+    margin: 0 0.2em 0px 0!important;
+}
+
+.construct-accessible-gold-tab:hover {
+    color: #333333!important;
+  }  
+  
+
    
   
    @media (max-width: 1024px) {
@@ -1140,6 +1156,11 @@ p.spacer {
     .construct-accessible-lettertab {
       padding: 10px 8px;
     }   
+
+    .construct-accessible-gold-tab {
+        padding: 10px 8px;
+        width: 90%;   
+    }
   }
   
   
@@ -1218,8 +1239,8 @@ p.spacer {
 .construct-module-overview-grid-icon-top-right-second-icon {
 	position: absolute;
 	top: 6.5%;
-	right: 21%;
-}   
+	right: 25%;
+}
 
 .construct-module-overview-grid-container {
     display: grid;
